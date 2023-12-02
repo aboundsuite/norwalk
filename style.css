@@ -10,52 +10,28 @@ body, h1, h2, p {
 }
 
 
-header {
-    text-align: center;
-    padding: 20px;
-}
-header img {
-    width: 150px; /* Adjust as needed */
-}
 
-.hero-video {
-    width: 100%; /* Adjust the width as necessary */
-    min-height: 700px; /* Adjust the height as necessary */
-    background-image: url('norwalk.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+.hero-video img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
 .church-info {
     text-align: center;
     padding: 20px;
-    margin: 200px 0;
+    margin: 100px 0;
 }
 
-
-@media (max-width: 768px) { /* Adjust the max-width as needed */
-    .hero-video {
-        height: 500px; /* Shorter height for smaller screens */
-        /* Additional styling adjustments for mobile view */
-    }
-}
-
-
-@media (max-width: 420px) { /* Adjust the max-width as needed */
-    .hero-video {
-        height: 500px; /* Shorter height for smaller screens */
-        /* Additional styling adjustments for mobile view */
-    }
-}
 
 
 .contact-info {
     background-color: #fff; /* White background for the contact info */
     padding: 20px;
   
-    margin-top: 200px; /* Space above the contact info section */
+    margin-top: 100px; /* Space above the contact info section */
 
     text-align: center; /* Center align text */
    
