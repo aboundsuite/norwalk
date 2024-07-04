@@ -1,6 +1,7 @@
 const Staff = () => (
-    <section id="staff" className="bg-white p-8 text-center">
-      <h2 className="text-3xl font-bold mb-4">Our Staff</h2>
+    <section id="staff" className="flex items-center justify-center min-h-screen bg-white p-8 text-center">
+  <div className="w-full text-center"> 
+  <h2 className="text-3xl font-bold mb-4">Our Staff</h2>
       <p className="mb-4">At Tabernacle, we believe that everyone is a child of God...</p>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {Array.from({ length: 9 }).map((_, index) => (
@@ -11,6 +12,10 @@ const Staff = () => (
           </div>
         ))}
       </div>
+
+
+
+  </div>
     </section>
   );
   

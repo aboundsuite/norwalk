@@ -1,5 +1,7 @@
 const About = () => (
-    <section id="about" className="bg-white p-8 text-center">
+    <section id="about" className="flex items-center bg-white p-8 text-center min-h-screen">
+
+      <div className="text-center w-full">
       <h2 className="text-3xl font-bold mb-4">About Tabernacle</h2>
       <p className="mb-4">Tabernacle is a welcoming and inclusive community of faith...</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -16,6 +18,11 @@ const About = () => (
           <p>We believe in the power of community...</p>
         </div>
       </div>
+
+
+
+      </div>
+      
     </section>
   );
   
