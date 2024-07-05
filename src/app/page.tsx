@@ -10,6 +10,7 @@ export default function HomePage() {
       <JoinUs />
       <About />
       <ServiceSchedule />
+      
       <Staff />
       <Contact />
     </>

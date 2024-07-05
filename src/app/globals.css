@@ -4,7 +4,7 @@
 
 /* Add your global styles here */
 body {
-  @apply bg-gray-100 font-sans;
+  @apply bg-gray-100 font-serif;
 }
 
 
