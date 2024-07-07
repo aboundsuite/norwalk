@@ -3,10 +3,10 @@ const About = () => (
 
       <div className="text-center w-90 mx-auto">
       <div className="mb-20">
-        <h2 className="text-3xl font-bold mb-4 text-blue-900 text-5xl">About Tabernacle</h2>
+        <h2 className="font-bold mb-4 text-blue-900 text-5xl">About Tabernacle</h2>
       <p className="mb-4 text-blue-900 opacity-70 text-xl">Tabernacle Baptist Church, An Independent, Bible Believing Baptist Church in the city of Lebanon, MO.</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-40">
         <div className="flex bg-blue-900 p-4 rounded h-80 items-center">
           <div className="text-center mx-auto">
 
