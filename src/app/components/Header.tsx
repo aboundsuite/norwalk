@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-blue-900 text-white p-4 flex justify-between items-center z-50">
-      <div className="text-2xl font-bold"><img src='/logo_white.png' className='w-64'></img></div>
+      <div className="text-2xl font-bold"><a href='/'><img src='/logo_white.png' className='w-64'></img></a></div>
       <button
         className="text-2xl focus:outline-none"
         onClick={toggleMenu}
@@ -34,16 +34,22 @@ const Header = () => {
           <nav>
             <ul className="space-y-4 text-center">
               <li>
-                <Link href="#about" onClick={closeMenu}>
+                <Link href="/about" onClick={closeMenu}>
                   About us
                 </Link>
               </li>
               <li>
-                <Link href="#staff" onClick={closeMenu}>
-                  Our Staff
+                <Link href="/ministries" onClick={closeMenu}>
+                  Ministries
                 </Link>
               </li>
               <li>
+                <Link href="/contact" onClick={closeMenu}>
+                  Contact
+                </Link>
+                </li>
+                
+                <li>
                 <Link href="#join" onClick={closeMenu}>
                   I’m new here
                 </Link>
