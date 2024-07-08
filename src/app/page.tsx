@@ -1,8 +1,8 @@
 import JoinUs from './components/JoinUs';
 import About from './components/About';
 import ServiceSchedule from './components/ServiceSchedule';
-import Staff from './components/Staff';
-import Contact from './components/Contact';
+import Pastor from './components/Pastor';
+import Churchapp from './components/Churchapp';
 
 export default function HomePage() {
   return (
@@ -11,8 +11,8 @@ export default function HomePage() {
       <About />
       <ServiceSchedule />
       
-      <Staff />
-      <Contact />
+      <Pastor />
+      <Churchapp />
     </>
   );
 }

@@ -1,7 +1,7 @@
 const About = () => (
-    <section id="about" className="flex items-center bg-white p-8 text-center min-h-screen">
+    <section id="about" className="flex items-center bg-white p-10 text-center min-h-screen">
 
-      <div className="text-center w-3/5 mx-auto">
+      <div className="text-center w-4/5 mx-auto">
       <div className="mb-20">
         <h2 className="font-bold mb-4 text-blue-900 text-5xl">About Tabernacle Baptist Church</h2>
         <h2 className="font-bold mb-4 text-blue-900 text-1xl">An Independent, Bible Believing Baptist Church in the city of Lebanon, MO.</h2>
@@ -15,7 +15,7 @@ const About = () => (
 
 
           <h3 className="text-2xl font-bold mb-2">Loving God</h3>
-          <p>We believe that God is love...</p>
+        
 
           </div>
        
@@ -27,7 +27,7 @@ const About = () => (
 
 
           <h3 className="text-2xl font-bold mb-2">Growing Together</h3>
-          <p>We believe in providing support...</p>
+         
           </div>
        
         </div>
@@ -36,7 +36,7 @@ const About = () => (
           <div className="text-center w-full">
 
           <h3 className="text-2xl font-bold mb-2">Reaching the World</h3>
-          <p>We believe in the power of community...</p>
+  
           </div>
        
         </div>

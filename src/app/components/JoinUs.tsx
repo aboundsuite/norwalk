@@ -10,7 +10,7 @@ const JoinUs = () => (
       muted
       playsInline
     />
-    <div className="relative z-10 text-center text-white bg-blue-100 bg-opacity-50 p-10 rounded mb-10 drop-shadow-xl">
+    <div className="relative z-10 text-center text-white bg-blue-100 bg-opacity-50 p-10 rounded mb-20 drop-shadow-xl">
 
       <h1 className="text-xl font-bold mb-4">Loving God, Growing Together, Reaching the World</h1>
      
