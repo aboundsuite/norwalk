@@ -21,9 +21,10 @@ const Pastor = () => {
             He and his wife have been serving the church for over 27 years and he has been the Pastor for over 16 years. 
             Pastor Ball and Mrs. Kelly have four children: Maggie, Caleb, Stephen, and Ben.
           </p>
-          <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl mt-4">
+        <a href='/about/#staff'>   <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl mt-4">
             Meet our Team
-          </button>
+          </button></a>
+       
         </div>
       </div>
     </section>

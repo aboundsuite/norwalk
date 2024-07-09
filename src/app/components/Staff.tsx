@@ -22,7 +22,7 @@ const staffMembers = [
 
 const Staff = () => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen bg-white">
+    <section id="staff" className="flex flex-col items-center justify-center h-screen bg-white">
       <div className="container mx-auto p-8" style={{ maxWidth: '940px' }}>
         <h1 className="text-4xl font-bold text-center mb-20 text-blue-900">Our Team</h1>
         {staffMembers.map((staff, index) => (

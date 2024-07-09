@@ -34,7 +34,7 @@ const Header = () => {
           <nav>
             <ul className="space-y-4 text-center">
               <li>
-                <Link href="/about" onClick={closeMenu}>
+                <Link href="/about/#about" onClick={closeMenu}>
                   About us
                 </Link>
               </li>
