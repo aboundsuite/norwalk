@@ -26,7 +26,7 @@ const Footer = () => (
         </div>
         <div className="flex flex-col justify-between">
           <div>
-            <h3 className="text-xl font-bold mb-2 text-blue-300">Location</h3>
+            <h3 className="text-xl font-bold mb-2 text-blue-300"> Church Location</h3>
             <p>929 Springfield Rd</p>
             <p>Lebanon, MO</p>
             
