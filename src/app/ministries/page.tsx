@@ -1,17 +1,17 @@
 import React from 'react';
 import JoinUs from '../components/JoinUs';
-import About from '../components/About';
+import Ministries from '../components/Ministries';
 import ServiceSchedule from '../components/ServiceSchedule';
-import Staff from '../components/Staff';
-import Contact from '../components/Contact';
+import Churchapp from '../components/Churchapp';
 
 const AboutPage = () => (
   <div>
     <JoinUs />
-    <About />
+    <Ministries />
+   
     <ServiceSchedule />
-    <Staff />
-    <Contact />
+    <Churchapp />
+
   </div>
 );
 
