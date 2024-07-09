@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pastor = () => {
   return (
-    <section className="flex flex-col md:flex-row h-screen">
+    <section className="flex flex-col md:flex-row m-h-screen">
       <div className="flex-1 flex items-center justify-center bg-white">
         <img
           src="/don_ball.jpg"
