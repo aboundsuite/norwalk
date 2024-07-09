@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pastor = () => {
   return (
-    <section className="flex flex-col md:flex-row m-h-screen">
+    <section className="flex flex-col md:flex-row h-screen">
       <div className="flex-1 flex items-center justify-center bg-white">
         <img
           src="/don_ball.jpg"
@@ -11,7 +11,7 @@ const Pastor = () => {
         />
       </div>
       <div className="flex-1 flex items-center justify-center p-8 bg-white">
-        <div className="max-w-md mx-auto text-center md:text-left">
+        <div className="max-w-[940px] mx-auto text-center md:text-left">
           <h1 className="text-4xl font-bold mb-4 text-blue-900">Don Ball Jr</h1>
           <h3 className="text-2xl font-bold mb-4 text-blue-500">Senior Pastor</h3>
           <p className="text-lg text-gray-500 mb-6">

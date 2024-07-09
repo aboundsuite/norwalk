@@ -13,12 +13,29 @@ const ServiceSchedule = () => (
           <p className="text-xl font-normal mb-2 text-gray-600">Teen Service                                    5:45 pm</p>
         </div>
         <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500">Every Wednesday</h3>
-          <p className="text-xl font-normal mb-2 text-gray-600">‍‍tca@visittabernacle.com</p>
+          <h3 className="text-2xl font-bold mb-2 text-blue-500">Mid Week</h3>
+          <p className="text-xl font-normal mb-2 text-gray-600">‍Wednesday Service                             7:00pm
+          </p>
         </div>
         <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500">Email Us</h3>
-          <p className="text-xl font-normal mb-2 text-gray-600">‍Wednesday Service                             7:00pm</p>
+          <h3 className="text-2xl font-bold mb-2 text-blue-500">Email</h3>
+          <p className="text-lg text-gray-700 mb-4">tca@visittabernacle.com</p>
+          <a href="mailto:tca@visittabernacle.com?subject=Contact from Website">
+            <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl">
+              Email Now
+            </button>
+          </a>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-bold mb-2 text-blue-500">Call</h3>
+         
+          <p className="text-lg text-gray-700 mb-4">417-532-4412</p>
+          <a href="tel:417-532-4412">
+            <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl">
+              Call Now
+            </button>
+          </a>
         </div>
         <div>
           <h3 className="text-2xl font-bold mb-2 text-blue-500">‍We are at</h3>
