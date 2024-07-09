@@ -4,6 +4,7 @@ import ServiceSchedule from './components/ServiceSchedule';
 import Pastor from './components/Pastor';
 import Churchapp from './components/Churchapp';
 
+
 export default function HomePage() {
   return (
     <>

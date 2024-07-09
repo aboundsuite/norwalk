@@ -14,7 +14,7 @@ const staffMembers = [
   {
     name: 'Jake Schueler',
     title: 'Assistant Pastor',
-    bio: ``,
+    bio: `Jake has been serving as the Assistant Pastor since 2010. He is passionate about helping the community and spreading the word of God.`,
     image: '/jake_schueler.jpg'
   }
   // Add more staff members here
@@ -22,16 +22,16 @@ const staffMembers = [
 
 const Staff = () => {
   return (
-    <section id="staff" className="flex flex-col items-center justify-center h-screen bg-white">
-      <div className="container mx-auto p-8" style={{ maxWidth: '940px' }}>
-        <h1 className="text-4xl font-bold text-center mb-20 text-blue-900">Our Team</h1>
+    <section id="staff" className="p-8 bg-white">
+      <div className="container mx-auto" style={{ maxWidth: '940px' }}>
+        <h1 className="text-4xl font-bold text-center mb-12 text-blue-900">Our Team</h1>
         {staffMembers.map((staff, index) => (
-          <div key={index} className="flex flex-col md:flex-row mb-24 items-center md:items-start">
+          <div key={index} className="flex flex-col md:flex-row mb-12 items-center md:items-start">
             <div className="flex-1 flex justify-center md:justify-end mb-6 md:mb-0">
               <img
                 src={staff.image}
                 alt={staff.name}
-                className="object-cover h-64 w-64 rounded-full"
+                className="object-cover h-64 w-64 rounded-lg"
               />
             </div>
             <div className="flex-1 md:ml-8 text-center md:text-left">
