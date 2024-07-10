@@ -1,7 +1,7 @@
 import React from 'react';
 
 const JoinUs = () => (
-  <section className="relative flex items-end justify-center min-h-screen bg-blue-100">
+  <section className="relative flex items-end justify-center h-screen bg-blue-100">
     <video
       className="absolute inset-0 w-full h-full object-cover"
       src="/visittabernacle.mp4"

@@ -1,5 +1,5 @@
 const About = () => (
-    <section id="about" className="flex items-center bg-white p-10 text-center h-screen">
+    <section id="about" className="flex items-center bg-white text-center min-h-screen">
 
       <div className="text-center w-4/5 mx-auto">
       <div className="mb-20">
