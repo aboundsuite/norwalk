@@ -14,7 +14,7 @@ const staffMembers = [
   {
     name: 'Jake Schueler',
     title: 'Assistant Pastor',
-    bio: `Jake has been serving as the Assistant Pastor since 2010. He is passionate about helping the community and spreading the word of God.`,
+    bio: ``,
     image: '/jake_schueler.jpg'
   }
   // Add more staff members here
@@ -22,7 +22,7 @@ const staffMembers = [
 
 const Staff = () => {
   return (
-    <section id="staff" className="p-8 bg-white">
+    <section id="staff" className="py-40 bg-white px-8">
       <div className="container mx-auto" style={{ maxWidth: '940px' }}>
         <h1 className="text-4xl font-bold text-center mb-12 text-blue-900">Our Team</h1>
         {staffMembers.map((staff, index) => (

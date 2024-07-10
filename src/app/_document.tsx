@@ -7,7 +7,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" type="image/png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
-        
+       
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Tabernacle Baptist Church" />
         <meta name="author" content="An Independent Bible Believing Baptist Church in Lebanon, MO" />
