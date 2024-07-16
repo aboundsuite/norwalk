@@ -1,5 +1,5 @@
 const ServiceSchedule = () => (
-    <section id="services" className="flex items-center justify-center min-h-screen bg-blue-100 px-8 py-20 text-center">
+    <section id="services" className="flex items-center justify-center min-h-screen bg-blue-100 px-8 py-30 text-center">
    <div className="text-center w-90 mx-auto">
    <h2 className="text-3xl font-bold mb-4 text-blue-900 text-5xl mb-100">Service Schedule</h2>
      

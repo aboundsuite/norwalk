@@ -1,7 +1,7 @@
 const About = () => (
-    <section id="about" className="flex items-center bg-white text-center min-h-screen ">
+    <section id="about" className="flex items-center bg-white text-center min-h-screen py-20">
 
-      <div className="text-center w-4/5 mx-auto px-20">
+      <div className="text-center w-4/5 mx-auto px-3">
       <div className="mb-20">
         <h2 className="font-bold mb-4 text-blue-900 text-5xl pt-20">About Tabernacle Baptist Church</h2>
         <h2 className="font-bold mb-4 text-blue-900 text-1xl">An Independent, Bible Believing Baptist Church in the city of Lebanon, MO.</h2>
