@@ -2,23 +2,27 @@ import React from 'react';
 
 const staffMembers = [
   {
-    name: 'Don Ball Jr',
+    name: 'Rich Forman',
     title: 'Senior Pastor',
-    bio: `Pastor has been in ministry since 1993. He was saved at the age of 6 and was called to preach at the age of 16. 
-          After his call to preach, he went to Baptist Bible College in Springfield, Missouri, where he met his wife Kelly and were married in 1993. 
-          In 1995, Pastor Ball graduated with a bachelor's degree and was on staff at Tabernacle Baptist Church. 
-          He and his wife have been serving the church for over 27 years and he has been the Pastor for over 16 years. 
-          Pastor Ball and Mrs. Kelly have four children: Maggie, Caleb, Stephen, and Ben.`,
-    image: '/don_ball.jpg'
+    bio: `Pastor Richard Forman has been the Pastor of Norwalk Baptist Church since November 2016. He has been married to his wife Melissa since 1999, and God has blessed them with four daughters. Pastor Forman was saved on November 5 of 2000, and after a revival service in 2005 answered the call to preach the Gospel of Jesus Christ. Through much prayer and council, God led Pastor and his family to The Crown College of the Bible in Powell Tennessee. It was there that God used Pastor Clarence Sexton, the Temple Baptist Church, and The Crown College to shape and prepare the Formans. It was during this time that Pastor earned his Bachelors degree and since then he has earned a Masters in Ministry. He is now faithfully serving as our Pastor and fellow servant of Jesus Christ.`,
+    image: '/pastor_photo.png'
   },
   {
-    name: 'Jake Schueler',
-    title: 'Assistant Pastor',
-    bio: ``,
-    image: '/jake_schueler.jpg'
+    name: 'Adam Loving',
+    title: 'Youth Director',
+    bio: `Adam Loving began working with our youth in January 2024. He married his amazing wife, Lia in 2009. Together they have four wonderful children, Annabelle, Caleb, Jonah, and Miriam. On September 4, 2011 Adam attended a church service at the behest of his wife. The pastor preached from the Gospel of John and by the end of the service he realized he was a sinner under condemnation and was headed for Hell. He went forward during the invitation and repented of his sins and placed his faith in Jesus Christ alone. In 2016 he began taking courses at Trinity Baptist College and graduated in 2023 with an Associate’s Degree in Biblical Studies. Adam served our country as a Senior Chief Petty Officer in the Navy and retired after 20 years of service in January of 2024.`,
+    image: '/Adam_Loving_Photo.png'
+  },
+  {
+    name: 'Aaron Graham',
+    title: 'Children\'s Director',
+    bio: `Aaron Graham alongside his wife, Julia, has been serving the children of Norwalk Baptist Church since 2022. They were married in July of that year. Together they have 1 child, Jude. Aaron has faithfully attended Norwalk Baptist Church since he was a baby and after a Sunday morning church service at the age of 9 Aaron realized he was a sinner on his way to hell and was saved that morning June 2009. After Highschool Aaron felt the call of God on his life to preach and full time ministry. So, in 2018 Aaron began at The Crown College of the Bible and graduated 2022 with a bachelors degree. There he cultivated a relationship with is now wife and married her shortly after graduation. Now together they are faithfully serving Norwalk Baptist Church and its children.`,
+    image: '/Aaron_Graham_Photo.png'
   }
-  // Add more staff members here
 ];
+
+
+
 
 const Staff = () => {
   return (

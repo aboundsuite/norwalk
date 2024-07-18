@@ -18,11 +18,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full bg-white text-white p-4 flex justify-between items-center z-50">
       <div className="text-2xl font-bold"><a href='/'><img src='/nbc_logo.png' className='w-64'></img></a></div>
       <button
-        className="text-2xl focus:outline-none"
-        onClick={toggleMenu}
-      >
-        ☰
-      </button>
+  className="text-2xl text-gray-800 focus:outline-none"
+  onClick={toggleMenu}
+>
+  ☰
+</button>
+
       {isOpen && (
         <div className="fixed inset-0 bg-blue-900 flex flex-col items-center justify-center space-y-4 text-3xl transition-opacity duration-300 ease-in-out">
           <button

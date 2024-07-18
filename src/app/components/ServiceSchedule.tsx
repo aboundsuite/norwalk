@@ -1,8 +1,10 @@
+import React from 'react';
+
 const ServiceSchedule = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center text-center h-screen bg-blue-900 text-white">
-      <div className="container mx-auto px-8 md:px-20 py-16 md:py-24 flex flex-col md:flex-row justify-between items-center">
-        <div className="flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0 md:w-1/2">
+    <section className="flex items-center justify-center h-screen bg-blue-900 text-white">
+      <div className="container mx-auto px-8 md:px-20 py-16 md:py-24 flex flex-col md:flex-row justify-between items-start" style={{ maxWidth: '940px' }}>
+        <div className="flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0 md:w-1/2 md:mr-8">
           <div className="mb-4">
             <img src="/calendar.svg" alt="Service Schedule" className="h-16 w-16" />
           </div>
@@ -17,7 +19,7 @@ const ServiceSchedule = () => {
             Watch Live
           </a>
         </div>
-        <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2 md:ml-8">
           <div className="mb-4">
             <img src="/location.svg" alt="Location & Contact" className="h-16 w-16" />
           </div>
@@ -35,6 +37,5 @@ const ServiceSchedule = () => {
     </section>
   );
 };
-  
-  export default ServiceSchedule;
-  
+
+export default ServiceSchedule;
