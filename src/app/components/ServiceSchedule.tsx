@@ -1,10 +1,10 @@
 const ServiceSchedule = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center h-screen bg-blue-900 text-white">
+    <section className="flex flex-col md:flex-row items-center text-center h-screen bg-blue-900 text-white">
       <div className="container mx-auto px-8 md:px-20 py-16 md:py-24 flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0 md:w-1/2">
           <div className="mb-4">
-            <img src="/path/to/service-schedule-icon.png" alt="Service Schedule" className="h-16 w-16" />
+            <img src="/calendar.svg" alt="Service Schedule" className="h-16 w-16" />
           </div>
           <h2 className="text-3xl font-bold mb-4 text-green-500">Service Schedule</h2>
           <p className="text-lg mb-6">
@@ -19,7 +19,7 @@ const ServiceSchedule = () => {
         </div>
         <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2">
           <div className="mb-4">
-            <img src="/path/to/location-contact-icon.png" alt="Location & Contact" className="h-16 w-16" />
+            <img src="/location.svg" alt="Location & Contact" className="h-16 w-16" />
           </div>
           <h2 className="text-3xl font-bold mb-4 text-green-500">Location & Contact</h2>
           <p className="text-lg mb-6">
