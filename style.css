@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+.hero-video img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.church-info {
+    text-align: center;
+    padding: 20px;
+    margin: 100px 0;
+}
+
+
+
+.contact-info {
+    background-color: #fff; /* White background for the contact info */
+    padding: 20px;
+  
+    margin-top: 100px; /* Space above the contact info section */
+
+    text-align: center; /* Center align text */
+   
+}
+
+.contact-info h2 {
+    font-size: 24px; /* Larger font size for the section heading */
+    color: #333; /* Darker color for contrast */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.contact-info p {
+    font-size: 18px; /* Size of the contact text */
+    color: #555; /* Color for the contact text */
+    margin: 5px 0; /* Space around each contact item */
+}
+
+.contact-info a {
+    color: #0066cc; /* Color for email link */
+    text-decoration: none; /* No underline */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover for the link */
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #00002a;
+    margin: 200px 0 0;
+    color: #fff;
+}
+
+
+footer a {
+    color: #fff;
+}
