@@ -1,57 +1,40 @@
-const ServiceSchedule = () => (
-    <section id="services" className="flex items-center justify-center min-h-screen bg-blue-100 px-8 py-30 text-center">
-   <div className="text-center w-90 mx-auto">
-   <h2 className="text-3xl font-bold mb-4 text-blue-900 text-5xl mb-100">Service Schedule</h2>
-     
-      <div className="grid grid-cols-1 gap-20">
-        <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500 mb-10 mt-10">Every Sunday</h3>
-          <p className="text-xl font-normal mb-2 text-gray-600">Sunday School                               10:00 am</p>
-          <p className="text-xl font-normal mb-2 text-gray-600">Sunday Morning                             11:00 am</p>
-          <p className="text-xl font-normal mb-2 text-gray-600">Children’s Church                          11:00 am</p>
-          <p className="text-xl font-normal mb-2 text-gray-600">Sunday Evening Service               5:45 pm</p>
-          <p className="text-xl font-normal mb-2 text-gray-600">Teen Service                                    5:45 pm</p>
-        </div>
-        <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500">Mid Week</h3>
-          <p className="text-xl font-normal mb-2 text-gray-600">‍Wednesday Service                             7:00pm
+const ServiceSchedule = () => {
+  return (
+    <section className="flex flex-col md:flex-row items-center justify-center h-screen bg-blue-900 text-white">
+      <div className="container mx-auto px-8 md:px-20 py-16 md:py-24 flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0 md:w-1/2">
+          <div className="mb-4">
+            <img src="/path/to/service-schedule-icon.png" alt="Service Schedule" className="h-16 w-16" />
+          </div>
+          <h2 className="text-3xl font-bold mb-4 text-green-500">Service Schedule</h2>
+          <p className="text-lg mb-6">
+            Sunday Life Group Classes: 9:45 AM<br />
+            Sunday Morning: 11:00 AM<br />
+            Evening Service: 6:00 PM<br />
+            Wednesday Evening: 7:00 PM
           </p>
-        </div>
-        <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500">Email</h3>
-          <p className="text-lg text-gray-700 mb-4">tca@visittabernacle.com</p>
-          <a href="mailto:tca@visittabernacle.com?subject=Contact from Website">
-            <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl">
-              Email Now
-            </button>
+          <a href="#watch-live" className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-4 py-2 rounded">
+            Watch Live
           </a>
         </div>
-
-        <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500">Call</h3>
-         
-          <p className="text-lg text-gray-700 mb-4">417-532-4412</p>
-          <a href="tel:417-532-4412">
-            <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl">
-              Call Now
-            </button>
+        <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-1/2">
+          <div className="mb-4">
+            <img src="/path/to/location-contact-icon.png" alt="Location & Contact" className="h-16 w-16" />
+          </div>
+          <h2 className="text-3xl font-bold mb-4 text-green-500">Location & Contact</h2>
+          <p className="text-lg mb-6">
+            2084 US-20 West Norwalk OH 44857<br />
+            Phone: (419) 668-4629<br />
+            Email: info@norwalkbc.com
+          </p>
+          <a href="https://www.google.com/maps/place/Tabernacle+Baptist+Church/@37.6733476,-92.6702843,17z/data=!3m1!4b1!4m5!3m4!1s0x87c539e0a551f449:0x8d0b04d598ca99c8!8m2!3d37.6731641!4d-92.6681006" target="_blank" rel="noopener noreferrer" className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-4 py-2 rounded">
+            Get Directions
           </a>
         </div>
-        <div>
-          <h3 className="text-2xl font-bold mb-2 text-blue-500">‍We are at</h3>
-          <p className="text-xl font-normal mb-2 text-gray-600">‍929 Springfield Rd</p>
-          <p className="text-xl font-normal mb-2 text-gray-600"> Lebanon, MO 65536</p>
-          <a href="https://www.google.com/maps/place/Tabernacle+Baptist+Church/@37.6733476,-92.6706705,17z/data=!3m1!4b1!4m6!3m5!1s0x87c539e0a551f449:0x8d0b04d598ca99c8!8m2!3d37.6733476!4d-92.6680956!16s%2Fg%2F11fqk3x97q?entry=ttu" target="_blank">
-    <button className="bg-blue-900 h-20 w-50 hover:bg-blue-700 text-white px-4 py-2 rounded px-20 text-xl mt-20">Get Directions</button>
-</a>
-        </div>
-
-
-      </div>
-
       </div>
     </section>
   );
+};
   
   export default ServiceSchedule;
   

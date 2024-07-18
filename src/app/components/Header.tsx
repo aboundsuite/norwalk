@@ -15,8 +15,8 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-blue-900 text-white p-4 flex justify-between items-center z-50">
-      <div className="text-2xl font-bold"><a href='/'><img src='/logo_white.png' className='w-64'></img></a></div>
+    <header className="fixed top-0 left-0 w-full bg-white text-white p-4 flex justify-between items-center z-50">
+      <div className="text-2xl font-bold"><a href='/'><img src='/nbc_logo.png' className='w-64'></img></a></div>
       <button
         className="text-2xl focus:outline-none"
         onClick={toggleMenu}
