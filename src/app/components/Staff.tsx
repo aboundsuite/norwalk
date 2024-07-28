@@ -5,7 +5,7 @@ const staffMembers = [
     name: 'Rich Forman',
     title: 'Senior Pastor',
     bio: `Pastor Richard Forman has been the Pastor of Norwalk Baptist Church since November 2016. He has been married to his wife Melissa since 1999, and God has blessed them with four daughters. Pastor Forman was saved on November 5 of 2000, and after a revival service in 2005 answered the call to preach the Gospel of Jesus Christ. Through much prayer and council, God led Pastor and his family to The Crown College of the Bible in Powell Tennessee. It was there that God used Pastor Clarence Sexton, the Temple Baptist Church, and The Crown College to shape and prepare the Formans. It was during this time that Pastor earned his Bachelors degree and since then he has earned a Masters in Ministry. He is now faithfully serving as our Pastor and fellow servant of Jesus Christ.`,
-    image: '/pastor_photo.png'
+    image: '/Pastor_Photo.png'
   },
   {
     name: 'Adam Loving',
