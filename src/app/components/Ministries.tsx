@@ -40,7 +40,7 @@ const ministries = [
   {
     name: 'Trail Life',
     description: `Trail Life USA is a Christ-centered, boy-focused organization with the goal of bringing up boys to not just become good men, but Godly ones. From the basics of map and compass reading to developing their abilities to think critically, Troop OH-0109 strives to continually teach these boys skills that are not only useful for camping out in the field but also in their everyday lives.`,
-    image: '/Trail_life.png'
+    image: '/Trail_Life.png'
   },
   {
     name: 'Senior Saints',
