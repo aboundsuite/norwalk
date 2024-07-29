@@ -25,7 +25,7 @@ const Header = () => {
 </button>
 
       {isOpen && (
-        <div className="fixed inset-0 bg-blue-900 flex flex-col items-center justify-center space-y-4 text-3xl transition-opacity duration-300 ease-in-out">
+        <div className="fixed inset-0 bg-custom-dark-blue flex flex-col items-center justify-center space-y-4 text-3xl transition-opacity duration-300 ease-in-out">
           <button
             className="absolute top-4 right-4 text-2xl focus:outline-none"
             onClick={closeMenu}
