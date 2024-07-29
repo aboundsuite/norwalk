@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceSchedule = () => {
   return (
-    <section className="flex items-center justify-center h-screen bg-blue-900 text-white py-40">
+    <section className="flex items-center justify-center h-screen bg-custom-dark-blue text-white py-40">
       <div className="container mx-auto px-8 md:px-20 py-16 md:py-24 flex flex-col md:flex-row justify-between items-start" style={{ maxWidth: '940px' }}>
         <div className="flex flex-col items-center md:items-start text-center md:text-left mb-16 md:mb-0 md:w-1/2 md:mr-8">
           <div className="mb-4">
