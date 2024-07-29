@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center h-screen bg-white text-black py-40">
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-white text-black py-40">
       <div className="flex-1 h-full">
         <img
           src="/norwalk_building.png"
