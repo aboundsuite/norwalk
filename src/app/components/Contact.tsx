@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2 text-blue-700">Call Us</h2>
           <p className="text-lg text-gray-700 mb-4">419-668-4629</p>
-          <a href="tel:417-532-4412">
+          <a href="tel:419-668-4629">
             <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl">
               Call Now
             </button>
@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2 text-blue-700">Email Us</h2>
           <p className="text-lg text-gray-700 mb-4">info@norwalkbc.com</p>
-          <a href="mailto:tca@visittabernacle.com?subject=Contact from Website">
+          <a href="mailto:info@norwalkbc.com<?subject=Contact from Website">
             <button className="bg-blue-900 hover:bg-blue-700 text-white px-8 py-3 rounded text-xl">
               Email Now
             </button>
