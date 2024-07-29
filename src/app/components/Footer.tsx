@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="flex bg-custom-dark-blue text-white p-8 h-screen items-center">
-    <div className="container mx-auto">
+  <footer className="flex flex-col justify-between bg-custom-dark-blue text-white p-8 h-screen">
+    <div className="container mx-auto flex-grow flex flex-col justify-center">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <a href='/'><img src='/nbc_logo_green.png' className='w-64 mb-20' alt="Norwalk Baptist Church Logo"></img></a>
@@ -31,9 +31,9 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="mt-8 border-t border-custom-light-green pt-4 text-center">
-        <p>Copyright © Norwalk Baptist Church | Designed by <a href='https://www.achurch.app' className='hover:text-custom-light-green'>A Church App</a></p>
-      </div>
+    </div>
+    <div className="mt-8 border-t border-custom-light-green pt-4 text-center">
+      <p>Copyright © Norwalk Baptist Church | Designed by <a href='https://www.achurch.app' className='hover:text-custom-light-green'>A Church App</a></p>
     </div>
   </footer>
 );
