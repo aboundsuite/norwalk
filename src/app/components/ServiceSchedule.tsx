@@ -29,7 +29,7 @@ const ServiceSchedule = () => {
             Phone: (419) 668-4629<br />
             Email: info@norwalkbc.com
           </p>
-          <a href="https://www.google.com/maps/place/Norwalk+Baptist+Church/@41.2315543,-82.6689839,17z/data=!3m1!4b1!4m6!3m5!1s0x883a16f78e212c61:0x3f86fbfe677e041a!8m2!3d41.2315543!4d-82.666409!16s%2Fg%2F125_vdd0r?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D">
+          <a href="https://www.google.com/maps/place/Norwalk+Baptist+Church/@41.2315543,-82.6689839,17z/data=!3m1!4b1!4m6!3m5!1s0x883a16f78e212c61:0x3f86fbfe677e041a!8m2!3d41.2315543!4d-82.666409!16s%2Fg%2F125_vdd0r?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D" className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-4 py-2 rounded">
             Get Directions
           </a>
         </div>
