@@ -29,7 +29,7 @@ const ServiceSchedule = () => {
             Phone: (419) 668-4629<br />
             Email: info@norwalkbc.com
           </p>
-          <a href="https://www.google.com/maps/place/Tabernacle+Baptist+Church/@37.6733476,-92.6702843,17z/data=!3m1!4b1!4m5!3m4!1s0x87c539e0a551f449:0x8d0b04d598ca99c8!8m2!3d37.6731641!4d-92.6681006" target="_blank" rel="noopener noreferrer" className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-4 py-2 rounded">
+          <a href="https://www.google.com/maps/place/Norwalk+Baptist+Church/@41.2315543,-82.6689839,17z/data=!3m1!4b1!4m6!3m5!1s0x883a16f78e212c61:0x3f86fbfe677e041a!8m2!3d41.2315543!4d-82.666409!16s%2Fg%2F125_vdd0r?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D">
             Get Directions
           </a>
         </div>
